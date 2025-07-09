@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelectorAll(".typing"),o=0;!function t(){var n;o>=e.length||function t(n,e,o,i){var u=2<arguments.length&&void 0!==o?o:0,c=3<arguments.length?i:void 0;u<e.length?(n.textContent+=e.charAt(u),setTimeout(function(){return t(n,e,u+1,c)},50)):c()}(n=e[o],n.dataset.text,0,function(){o++,t()})}()});
